@@ -8,7 +8,7 @@ static void small_can_board_boardConfigOverrides() {
 	setHellen64Can();
 	setHellen64MegaEnPin();
 	setHellen64SdCardSpi();
-
+	
   // not stm32 CAN DFU configuration :(
 	engineConfiguration->can2RxPin = Gpio::B5;
  	engineConfiguration->can2TxPin = Gpio::B6;
